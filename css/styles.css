@@ -1,0 +1,230 @@
+:root {
+    --title-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3
+  
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    background-color: #FFFFFF;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.button {
+    cursor: pointer;
+}
+
+ .header-nav-item > .current {
+    color: var(--accent-color);
+}
+
+/* -------------HEADER----------- */
+
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo-span {
+    color: #2196F3;
+}
+
+
+.header-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.header-nav-link:hover, 
+.header-nav-link:focus {
+    color: var(--accent-color);
+    
+}
+
+.header-contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.header-contacts-link:hover, 
+.header-contacts-link:focus {
+    color: var(--accent-color);
+}
+
+
+/* ----------------HERO------------------ */
+
+.hero {
+    background-color:#2F303A;;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+.hero-btn:hover, .hero-btn:focus {
+    background-color: #188CE8;
+}
+
+/* ---------------BENEFITS---------------- */
+
+.benefits-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.benefits-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+/* ------------ABOUT---------------- */
+
+.about-title, .team-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color)
+}
+
+/* -----------TEAM----------------- */
+
+.team {
+    background-color:#F5F4FA;
+}
+
+.team-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: var(--title-color)
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-color)
+}
+
+/* -------------ALL------------------- */
+
+.all-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #F5F4FA
+}
+
+.all-btn:hover, .all-btn:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.all-title {
+        font-size: 18px;
+        line-height: 2.0;
+        letter-spacing: 0.06em;
+        color: var(--title-color);
+}
+
+.all-text {
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+/* -------------FOOTER---------------- */
+.footer {
+    background-color: #2F303A;;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.adress-link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.adress-link:hover, .adress-link:focus {
+    color: var(--accent-color)
+}
+.adress-contacts-link {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-contacts-link:hover,
+.adress-contacts-link:focus {
+    color: var(--accent-color)
+}
+
+
+
